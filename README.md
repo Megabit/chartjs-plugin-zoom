@@ -1,4 +1,6 @@
-# chartjs-plugin-zoom
+# @megabit/chartjs-plugin-zoom
+
+> **Note**: This is a fork of the original [chartjs-plugin-zoom](https://github.com/chartjs/chartjs-plugin-zoom) updated for Chart.js v4 compatibility.
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/chartjs/chartjs-plugin-zoom/ci.yml)](https://github.com/chartjs/chartjs-plugin-zoom/actions/workflows/ci.yml)
 [![Coverage Status](https://coveralls.io/repos/github/chartjs/chartjs-plugin-zoom/badge.svg?branch=master)](https://coveralls.io/github/chartjs/chartjs-plugin-zoom?branch=master)

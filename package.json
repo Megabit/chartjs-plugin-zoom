@@ -1,8 +1,11 @@
 {
-  "name": "chartjs-plugin-zoom",
+  "name": "@megabit/chartjs-plugin-zoom",
   "homepage": "https://www.chartjs.org/chartjs-plugin-zoom/",
-  "description": "Plugin that enables zoom and pan functionality in Chart.js charts.",
-  "version": "2.2.0",
+  "description": "Chart.js v4 compatible plugin that enables zoom and pan functionality in Chart.js charts. (fork of chartjs-plugin-zoom)",
+  "contributors": [
+    "Megabit"
+  ],
+  "version": "4.0.0",
   "license": "MIT",
   "type": "module",
   "jsdelivr": "dist/chartjs-plugin-zoom.min.js",
@@ -58,7 +61,7 @@
     "@typescript-eslint/parser": "^5.62.0",
     "babel-loader": "^8.3.0",
     "c8": "^10.1.2",
-    "chart.js": "^4.3.2",
+    "chart.js": "^4.5.0",
     "chartjs-adapter-date-fns": "^3.0.0",
     "chartjs-test-utils": "^0.5.0",
     "concurrently": "^9.1.0",
@@ -95,7 +98,7 @@
     "vuepress-theme-chartjs": "^0.2.0"
   },
   "peerDependencies": {
-    "chart.js": ">=3.2.0"
+    "chart.js": ">=4.0.0"
   },
   "dependencies": {
     "@types/hammerjs": "^2.0.45",
